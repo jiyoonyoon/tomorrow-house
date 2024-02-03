@@ -78,3 +78,28 @@
   </button>
 </div>
 ```
+
+### 2. sidebar
+
+- 로그인을 하지 않은 경우
+
+```html
+<div class="sidebar-auth">
+  <a class="btn-outlined btn-40" href="/">로그인</a>
+  <a class="btn-fill-primary btn-40" href="/">회원가입</a>
+</div>
+```
+
+- 로그인을 했을 경우
+
+```html
+<div class="sidebar-user-menu">
+  <ul class="user-menu-list">
+    <li class="user-menu-itme"><a href="/">마이페이지</a></li>
+    <li class="user-menu-itme"><a href="/">나의 쇼핑</a></li>
+    <li class="user-menu-itme"><a href="/">스크랩북</a></li>
+    <li class="user-menu-itme"><a href="/">알림</a></li>
+    <li class="user-menu-itme"><a href="/">이벤트</a></li>
+  </ul>
+</div>
+```
