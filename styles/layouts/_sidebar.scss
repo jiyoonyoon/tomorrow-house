@@ -90,7 +90,7 @@
   &-user-menu {
     margin-top: 16px;
 
-    .user-menu-itme {
+    .user-menu-item {
       a {
         @include flexbox(start);
         @include text-style(14, $primary);
