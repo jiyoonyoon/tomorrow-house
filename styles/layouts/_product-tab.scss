@@ -46,6 +46,10 @@
     height: 54px;
     border-bottom: 0px solid $border;
 
+    &-list {
+      margin: 0;
+    }
+
     &-item {
       button {
         @include text-style(16);
