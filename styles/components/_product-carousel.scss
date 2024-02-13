@@ -49,6 +49,7 @@
 
   @include responsive(T) {
     padding-right: 30px;
+    margin-bottom: 40px;
 
     &-slider {
       margin: 0 0 8px 0;
@@ -66,7 +67,7 @@
     }
 
     .thumbnail-list {
-      justify-content: start;
+      justify-content: flex-start;
     }
 
     .thumbnail-item {
