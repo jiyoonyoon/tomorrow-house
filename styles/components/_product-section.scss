@@ -3,7 +3,7 @@
 
   &-dividor {
     height: 8px;
-    margin: 0 -15px; //TODO : grid constents로 빼기
+    margin: 0 -#{$grid-margin};
     background-color: $border;
   }
 
