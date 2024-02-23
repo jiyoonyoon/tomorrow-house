@@ -13,7 +13,7 @@ function toggleActiveTab() {
   if (currentActiveTab !== tabItem) {
     disableUpdating = true
     tabItem.classList.add('is-active')
-    currentActiveTab.classListNaNpxove('is-active')
+    currentActiveTab.classList.remove('is-active')
     currentActiveTab = tabItem
 
     setTimeout(() => {
@@ -95,7 +95,7 @@ function updateActiveTabOnScroll() {
     if (newActiveTab !== currentActiveTab) {
       newActiveTab.classList.add('is-active')
       if (currentActiveTab !== null) {
-        currentActiveTab.classListNaNpxove('is-active')
+        currentActiveTab.classList.remove('is-active')
       }
 
       currentActiveTab = newActiveTab
